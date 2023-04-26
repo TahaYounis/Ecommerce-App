@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "668029543649",
+    "project_id": "ecommerce-74f82",
+    "storage_bucket": "ecommerce-74f82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668029543649:android:57fc7dc457aa01203943a0",
+        "android_client_info": {
+          "package_name": "com.taha.ecommerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668029543649-0at073lpv1qk0ig41oopk5466temb1vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taha.ecommerceapp",
+            "certificate_hash": "ca1f10afaeb9f36a134718f77ff5316a57560fd6"
+          }
+        },
+        {
+          "client_id": "668029543649-3t17in9tbevoqro008m2bhljg9v0t5mj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxC7AocEC1A_-Wy2kn8oU2KWWzpBxKjjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668029543649-3t17in9tbevoqro008m2bhljg9v0t5mj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
