@@ -13,6 +13,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.taha.ecommerceapp.BuildConfig
 import com.taha.ecommerceapp.R
 import com.taha.ecommerceapp.activities.LoginRegisterActivity
@@ -59,6 +60,8 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
         }
         binding.tvVersion.text = "Version ${BuildConfig.VERSION_CODE}"
 
+        onHomeClick()
+
         lifecycleScope.launchWhenStarted {
             viewModel.user.collectLatest {
                 when (it) {
@@ -84,7 +87,13 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
             }
         }
     }
-
+    private fun onHomeClick() {
+        val btm = activity?.findViewById<BottomNavigationView>(R.id.bottomNavigation)
+        btm?.menu?.getItem(0)?.setOnMenuItemClickListener {
+            activity?.onBackPressed()
+            true
+        }
+    }
     override fun onResume() {
         super.onResume()
         showBottomNavigationView()

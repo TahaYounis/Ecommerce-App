@@ -22,6 +22,7 @@ import com.taha.ecommerceapp.adapters.SearchAdapter
 import com.taha.ecommerceapp.data.Product
 import com.taha.ecommerceapp.databinding.FragmentSearchBinding
 import com.taha.ecommerceapp.util.Resource
+import com.taha.ecommerceapp.util.showBottomNavigationView
 import com.taha.ecommerceapp.viewmodel.SearchViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.*
@@ -185,8 +186,6 @@ class SearchFragment: Fragment(R.layout.fragment_search) {
 
     override fun onResume() {
         super.onResume()
-
-        val bottomNav = activity?.findViewById<BottomNavigationView>(R.id.bottomNavigation)
-        bottomNav?.visibility = View.VISIBLE
+        showBottomNavigationView()
     }
 }

@@ -12,6 +12,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.taha.ecommerceapp.R
 import com.taha.ecommerceapp.adapters.CartProductAdapter
 import com.taha.ecommerceapp.databinding.FragmentCartBinding
@@ -72,6 +73,8 @@ class CartFragment : Fragment(R.layout.fragment_cart) {
             )
             findNavController().navigate(action)
         }
+
+        onHomeClick()
 
         lifecycleScope.launchWhenStarted {
             viewModel.deleteDialog.collectLatest {
@@ -151,6 +154,13 @@ class CartFragment : Fragment(R.layout.fragment_cart) {
             layoutManager = LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
             adapter = cartAdapter
             addItemDecoration(VerticalItemDecoration())
+        }
+    }
+    private fun onHomeClick() {
+        val btm = activity?.findViewById<BottomNavigationView>(R.id.bottomNavigation)
+        btm?.menu?.getItem(0)?.setOnMenuItemClickListener {
+            activity?.onBackPressed()
+            true
         }
     }
 }
