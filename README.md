@@ -3,7 +3,7 @@ App built with good performance and good UI
 
 # Libraries and technologies used
 
-Markup : * Navigation component : one activity contains multiple fragments instead of creating multiple activites.
+ Markup : * Navigation component : one activity contains multiple fragments instead of creating multiple activites.
 Firebase Auth : Manging Accounts/ Loging in and Registrations.
 Firebase Firestore : Database for the system.
 Firebase Storage : To store proucts images and user profile pictures.
