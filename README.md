@@ -1,7 +1,7 @@
 # Ecommerce-App
 App built with good performance and good UI
 
-# Libraries and technologies used
+## Libraries and technologies used
 
 •	Navigation component : one activity contains multiple fragments instead of creating multiple activites.
 
