@@ -1,5 +1,5 @@
 # Ecommerce-App
-App built with good performance and good UI
+This app is built with good performance and UI, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
 
 ## Libraries and technologies used
 
@@ -18,3 +18,5 @@ App built with good performance and good UI
 •	view binding : instead of inflating views manually view binding will take care of that.
 
 •	Glide : Catch images and load them in imageView.
+
+![1](https://user-images.githubusercontent.com/82248336/235835780-c89c6300-38b6-45c3-ba7b-c7207a2ac903.jpg)
