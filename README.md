@@ -1,7 +1,8 @@
 # Ecommerce-App
 This app is built with good performance and UI, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
 
-![1](https://user-images.githubusercontent.com/82248336/235835780-c89c6300-38b6-45c3-ba7b-c7207a2ac903.jpg)
+# App Video
+https://github.com/TahaYounis/Ecommerce-App/assets/82248336/44b88632-d0c0-4f3f-9217-91ef5d16ed6e
 
 ## Libraries and technologies used
 
