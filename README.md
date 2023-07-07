@@ -4,6 +4,8 @@ This app is built with good performance and UI, targets people who are looking t
 # App Video
 https://github.com/TahaYounis/Ecommerce-App/assets/82248336/44b88632-d0c0-4f3f-9217-91ef5d16ed6e
 
+https://github.com/TahaYounis/Ecommerce-App/blob/master/Record_2023-07-01-07-48-50_e937e40fb40b3be011e0b0dcf8713ad5%20(1).mp4
+
 ## Libraries and technologies used
 
 •	Navigation component : one activity contains multiple fragments instead of creating multiple activites.
