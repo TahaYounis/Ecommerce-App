@@ -1,5 +1,6 @@
 # Ecommerce-App
-This app is built with good performance and UI, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
+This app is built with good performance, UI, and clean code, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
+Technologies: Navigation component, Firebase Auth/ Firestore/storage, MVVM & LiveData, Coroutines, view binding, Glide
 
 # App Video
 https://github.com/TahaYounis/Ecommerce-App/assets/82248336/44b88632-d0c0-4f3f-9217-91ef5d16ed6e
