@@ -1,5 +1,6 @@
 # Ecommerce-App
 This app is built with good performance, UI, and clean code, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
+
 Technologies: Navigation component, Firebase Auth/ Firestore/storage, MVVM & LiveData, Coroutines, view binding, Glide
 
 # App Video
