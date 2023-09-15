@@ -2,7 +2,7 @@
 This app is built with good performance and UI, and clean code, targets people who are looking to buy products. And it targets merchants that sell products to enable them to spread their markets and put their products online so everyone can check them out and order them.
 
 ### Technologies
-Navigation component, Firebase Auth/ Firestore/storage, MVVM & LiveData, Coroutines, view binding, Glide
+Navigation component, Firebase Auth/ Firestore/storage, dagger hilt, MVVM & LiveData, Coroutines, view binding, Glide
 
 # App Video
 https://github.com/TahaYounis/Ecommerce-App/assets/82248336/44b88632-d0c0-4f3f-9217-91ef5d16ed6e
@@ -16,6 +16,8 @@ https://github.com/TahaYounis/Ecommerce-App/assets/82248336/44b88632-d0c0-4f3f-9
 •	Firebase Firestore : Database for the system.
 
 •	Firebase Storage : To store proucts images and user profile pictures.
+
+•	Dagger hilt : for dependece injection.
 
 •	MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.
 
